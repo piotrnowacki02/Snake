@@ -235,14 +235,14 @@ void startScreen(RenderWindow* window, Event* event)
     Texture texture;
     texture.loadFromFile("assets/Textures/snake_selfie.png");
     Sprite snake(texture);
-    snake.setPosition(200, 100);
+    snake.setPosition(270, 120);
 
     Text text;
     text.setFont(font);
     text.setString("SNAKE GAME");
     text.setCharacterSize(50);
     text.setFillColor(Color::Black);
-    text.setPosition(300, 50);
+    text.setPosition(270, 50);
 
     Text instruction;
     instruction.setFont(font);
